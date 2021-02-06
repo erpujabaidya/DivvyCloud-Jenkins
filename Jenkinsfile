@@ -4,7 +4,7 @@ pipeline {
    stages {
        stage('GitHub checkout'){
            steps{
-       git branch: 'master', credentialsId: '448b0998-a41f-4d90-b417-7ed8d1382b3e', url: 'https://github.com/santoshreddyspy13/DivvyCloud.git'
+       git branch: 'master', credentialsId: '448b0998-a41f-4d90-b417-7ed8d1382b3e', url: 'Git_URL'
    }
        }
        stage('Generate Terraform Plan') {
@@ -37,3 +37,5 @@ pipeline {
         }
     }
 }
+
+#change the git url & change the divvy cloud credentials in jenkins
