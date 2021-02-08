@@ -13,7 +13,11 @@ python3 /home/ubuntu/iac_api.py https://mindtree-pov.divvycloud.net Configuratio
 # For python Script visit
 https://bitbucket.org/!api/2.0/snippets/divvycloud/LryE9B/HEAD/files/iac_api.py
 
-#Specify the bindings in Jenkins project And put the git repo url https://github.com/santoshreddyspy13/DivvyCloud.git
+# Specify the bindings in Jenkins project And put the git repo url https://github.com/santoshreddyspy13/DivvyCloud.git
 or, visit https://docs.divvycloud.com/docs/using-the-iac-analyzer-via-api
+
+
+# Author
+Puja Baidya
 
 
